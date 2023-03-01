@@ -34,6 +34,7 @@ ext = '.csv'
 terms = (current_term,) 
 
 combined = pd.DataFrame()
+increment = pd.DataFrame()
 
 for t in terms:
     
